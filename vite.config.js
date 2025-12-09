@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 
-// https://vite.dev/config/
+// ahttps://vite.dev/config/
 export default defineConfig({
   base : '/Jeonaya/praktikum_7/',
   plugins: [react(), tailwindcss(),],
