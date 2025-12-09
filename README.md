@@ -1,16 +1,3 @@
-# React + Vite
+Proyek ini adalah implementasi antarmuka pengguna (User Interface/UI) untuk website "Ruang Ekspresi," diimplementasikan menggunakan React (Vite) dan di-styling dengan Tailwind CSS. Sesuai dengan persyaratan teknis, keseluruhan desain telah di-slicing menjadi komponen-komponen atomik untuk memastikan component reusability dan kemudahan pemeliharaan kode.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Aplikasi ini sepenuhnya responsif (responsive design), menggunakan utility classes Tailwind CSS seperti grid-cols-1 md:grid-cols-3 untuk memastikan tata letak menyesuaikan dengan baik pada perangkat seluler maupun desktop. Semua aset visual (gambar dan ikon) telah diekspor dari desain Figma dan disimpan secara terpusat di folder src/assets/, mengikuti praktik terbaik dalam manajemen aset. Struktur kode utama dipecah menjadi tujuh komponen fungsional yang disimpan di src/components/, dan kemudian dirangkai pada src/App.jsx. Komponen-komponen tersebut meliputi: Navbar.jsx, HeroSection.jsx (yang menampilkan detail proyek dan carousel), FourPillar.jsx (menampilkan empat pilar program), ScheduleSection.jsx (menampilkan jadwal kegiatan), TestimonialCard.jsx (untuk menampilkan testimoni mahasiswa), dan Footer.jsx (yang berisi tautan cepat dan kontak). Dengan pendekatan ini, proyek berhasil mereplikasi desain asli dengan standar modern React dan styling berbasis utility-first.
