@@ -1,6 +1,7 @@
 // src/components/HeroSection.jsx
 import React from 'react';
 import ProjectCard from './ProjectCard';
+import kantor_1 from '../assets/kantor_1.png';
 
 const Tag = ({ color, children }) => (
   // Tag warna-warni (image_944d4c.jpg)
@@ -37,7 +38,7 @@ const HeroSection = () => {
         <div className="relative w-full aspect-video md:aspect-auto h-80 lg:h-[450px] rounded-xl overflow-hidden shadow-2xl">
           {/* Ganti dengan path ke gambar meeting Anda di src/assets */}
           <img 
-            src="/src/assets/kantor_1.png" 
+            src={kantor_1}
             alt="Mahasiswa Meeting" 
             className="w-full h-full object-cover"
           />
