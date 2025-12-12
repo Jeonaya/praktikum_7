@@ -8,7 +8,7 @@ const Tag = ({ color, children }) => (
   <span className={`px-4 py-1.5 text-sm font-semibold rounded-full ${color} shadow-sm`}>
     {children}
   </span>
-);
+); 
 
 const HeroSection = () => {
   return (
